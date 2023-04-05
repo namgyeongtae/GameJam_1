@@ -7,7 +7,13 @@ Engine* Engine::s_Instance = nullptr;
 
 bool Engine::Init()
 {
-	return false;
+	if (SDL_Init(SDL_INIT_VIDEO) != 0 && IMG_Init(IMG_INIT_JPG | IMG_INIT_PNG) != 0)
+	{
+		SDL_Log("Failed to Initialize SDL: %s", SDL_GetError());
+		return false;
+	}
+
+	return m_IsRunning = true;
 }
 
 bool Engine::Clean()
@@ -21,7 +27,7 @@ void Engine::Quit()
 
 void Engine::Update(float dt)
 {
-	cout << "updating..." << endl;
+	SDL_Log("didididi");
 }
 
 void Engine::Render()
