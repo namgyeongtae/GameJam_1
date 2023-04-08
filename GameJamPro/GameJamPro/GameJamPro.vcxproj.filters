@@ -19,6 +19,18 @@
     <Filter Include="헤더 파일\Core">
       <UniqueIdentifier>{ecc08276-49ff-4193-a45a-5fbb31c324dc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Graphics">
+      <UniqueIdentifier>{6ebe0320-ed29-4c0e-9401-7d8cb7b1fa54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Graphics">
+      <UniqueIdentifier>{5b70e1d0-cb3e-40f2-a42d-795d84f2a379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Physics">
+      <UniqueIdentifier>{469092aa-0506-4d99-85a5-3fdbf2e3b4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Physics">
+      <UniqueIdentifier>{7aa16246-8c27-4c8e-a670-84926a7280e9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameJamPro.cpp">
@@ -27,13 +39,28 @@
     <ClCompile Include="Engine.cpp">
       <Filter>소스 파일\Core</Filter>
     </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>소스 파일\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>소스 파일\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>소스 파일\Physics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine.h">
       <Filter>헤더 파일\Core</Filter>
     </ClInclude>
-    <ClInclude Include="SDL_image.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="TextureManager.h">
+      <Filter>헤더 파일\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>헤더 파일\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>헤더 파일\Physics</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

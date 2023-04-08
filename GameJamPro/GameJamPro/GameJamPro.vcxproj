@@ -133,10 +133,15 @@
   <ItemGroup>
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="GameJamPro.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="Vector2D.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine.h" />
-    <ClInclude Include="SDL_image.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="Vector2D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

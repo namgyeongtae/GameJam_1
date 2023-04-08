@@ -1,5 +1,2 @@
 ﻿  Engine.cpp
-  GameJamPro.cpp
-C:\Users\gotsu\Documents\GameJam Projects\GameJam_1\GameJamPro\GameJamPro\GameJamPro.cpp(15,31): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
-  코드를 생성하고 있습니다...
   GameJamPro.vcxproj -> C:\Users\gotsu\Documents\GameJam Projects\GameJam_1\GameJamPro\x64\Debug\GameJamPro.exe
