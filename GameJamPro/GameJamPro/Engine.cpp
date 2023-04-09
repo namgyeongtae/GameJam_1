@@ -1,8 +1,10 @@
 #include "Engine.h"
 #include "TextureManager.h"
-#include "Transform.h"
+
+#include "Worrior.h"
 
 Engine* Engine::s_Instance = nullptr;
+Worrior* player = nullptr;
 
 bool Engine::Init()
 {
@@ -26,10 +28,9 @@ bool Engine::Init()
 		return false;
 	}
 
-	TextureManager::GetInstance()->Load("bomb_1", "Assets/bomb_1.png");
+	TextureManager::GetInstance()->Load("player", "Assets/Idle.png");
+	player = new Worrior(new Properties("player", 100, 200, 128, 128));
 
-	/*Transform tf;
-	tf.Log();*/
 	return m_IsRunning = true;
 }
 
@@ -52,6 +53,7 @@ void Engine::Quit()
 
 void Engine::Update(float dt)
 {
+	player->Update(0);
 }
 
 void Engine::Render()
@@ -59,7 +61,7 @@ void Engine::Render()
 	SDL_SetRenderDrawColor(m_Renderer, 124, 218, 254, 255);
 	SDL_RenderClear(m_Renderer);
 
-	TextureManager::GetInstance()->Draw("bomb_1", 100, 100, 750, 683);
+	player->Draw();
 	SDL_RenderPresent(m_Renderer);
 }
 

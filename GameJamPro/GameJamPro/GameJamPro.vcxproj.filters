@@ -31,6 +31,18 @@
     <Filter Include="헤더 파일\Physics">
       <UniqueIdentifier>{7aa16246-8c27-4c8e-a670-84926a7280e9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\Object">
+      <UniqueIdentifier>{5a97071b-14ae-4331-bcfc-9439c04f4166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{6667803a-19c0-4352-a931-52fe25386138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Characters">
+      <UniqueIdentifier>{271502ef-a6d0-4857-853d-826358f0f580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Characters">
+      <UniqueIdentifier>{5cf28529-bba7-474f-9169-73599625e661}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameJamPro.cpp">
@@ -48,6 +60,15 @@
     <ClCompile Include="Transform.cpp">
       <Filter>소스 파일\Physics</Filter>
     </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>소스 파일\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Worrior.cpp">
+      <Filter>소스 파일\Characters</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine.h">
@@ -61,6 +82,18 @@
     </ClInclude>
     <ClInclude Include="Transform.h">
       <Filter>헤더 파일\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="IObject.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>헤더 파일\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Worrior.h">
+      <Filter>헤더 파일\Characters</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
