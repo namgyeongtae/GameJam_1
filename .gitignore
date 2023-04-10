@@ -36,3 +36,4 @@ GameJamPro/.vs/GameJamPro/v17/Browse.VC.db-shm
 GameJamPro/.vs/GameJamPro/v17/Browse.VC.db-wal
 GameJamPro/.vs/GameJamPro/v17/Browse.VC.opendb
 *.vsidx
+*.ipch

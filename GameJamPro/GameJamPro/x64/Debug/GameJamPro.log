@@ -1,16 +1,4 @@
-﻿  Character.cpp
+﻿  Engine.cpp
 C:\Users\gotsu\Documents\GameJam Projects\GameJam_1\GameJamPro\GameJamPro\GameObject.h(11,8): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\gotsu\Documents\GameJam Projects\GameJam_1\GameJamPro\GameJamPro\GameObject.h(12,8): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Engine.cpp
-C:\Users\gotsu\Documents\GameJam Projects\GameJam_1\GameJamPro\GameJamPro\GameObject.h(11,8): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\gotsu\Documents\GameJam Projects\GameJam_1\GameJamPro\GameJamPro\GameObject.h(12,8): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  GameObject.cpp
-C:\Users\gotsu\Documents\GameJam Projects\GameJam_1\GameJamPro\GameJamPro\GameObject.h(11,8): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\gotsu\Documents\GameJam Projects\GameJam_1\GameJamPro\GameJamPro\GameObject.h(12,8): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Worrior.cpp
-C:\Users\gotsu\Documents\GameJam Projects\GameJam_1\GameJamPro\GameJamPro\GameObject.h(11,8): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\gotsu\Documents\GameJam Projects\GameJam_1\GameJamPro\GameJamPro\GameObject.h(12,8): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\gotsu\Documents\GameJam Projects\GameJam_1\GameJamPro\GameJamPro\Worrior.cpp(13,83): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\gotsu\Documents\GameJam Projects\GameJam_1\GameJamPro\GameJamPro\Worrior.cpp(13,67): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  코드를 생성하고 있습니다...
   GameJamPro.vcxproj -> C:\Users\gotsu\Documents\GameJam Projects\GameJam_1\GameJamPro\x64\Debug\GameJamPro.exe

@@ -43,6 +43,18 @@
     <Filter Include="헤더 파일\Characters">
       <UniqueIdentifier>{5cf28529-bba7-474f-9169-73599625e661}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Animation">
+      <UniqueIdentifier>{249ba6cf-5b3c-4c39-93a8-1d0941c4fd62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Animation">
+      <UniqueIdentifier>{582e3bcd-91a9-4c23-bfd1-cad0e9213096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Inputs">
+      <UniqueIdentifier>{ffa4c309-5caa-421e-8455-80391cacfa01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Inputs">
+      <UniqueIdentifier>{e19db39e-f342-4517-a62e-29eb938d26a4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameJamPro.cpp">
@@ -69,6 +81,12 @@
     <ClCompile Include="Worrior.cpp">
       <Filter>소스 파일\Characters</Filter>
     </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>소스 파일\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>소스 파일\Inputs</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine.h">
@@ -94,6 +112,15 @@
     </ClInclude>
     <ClInclude Include="Worrior.h">
       <Filter>헤더 파일\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>헤더 파일\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>헤더 파일\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>헤더 파일\Inputs</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
